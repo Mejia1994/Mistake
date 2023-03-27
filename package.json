@@ -1,0 +1,18 @@
+{
+  "name": "mistake",
+  "version": "1.0.0",
+  "description": "Función que se encarga de manejar el estado del historial de la aplicación.",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "build-dev": "webpack --mode=development --watch && npm run dev"
+  },
+  "author": "The Inner Club",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.11.3",
+    "webpack-livereload-plugin": "^2.3.0",
+    "webpack-modernizr-loader": "^5.0.0"
+  }
+}
